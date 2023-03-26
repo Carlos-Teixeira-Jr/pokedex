@@ -23,7 +23,7 @@ module.exports = {
     // Adiciona o diretório de fontes ao caminho de busca
     resolve: {
       alias: {
-        fonts: path.resolve(__dirname, 'src/fonts/')
+        fonts: path.resolve(__dirname, 'public/fonts/')
       }
     }
   }
